@@ -1,0 +1,141 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+
+/* navbar */
+
+.spotify-icon{
+    width:50px;
+    height: 50px;
+}
+
+.header{
+    padding: 5px 10px;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.spotify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotify span{
+    font-size: 25px;
+}
+
+.spotify img{
+    background-color: black;
+}
+
+.list-items{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    margin-left: 20px;
+}
+
+
+/* middle part */
+
+.mid{
+  
+    margin:20px auto;
+    width:85%;
+    height: 60vh;
+    background-image:url('./assets/cover.jpg');
+    
+    
+    border-radius: 10px;
+    padding:20px;
+}
+
+.mid h1{
+    color: white;
+}
+
+
+.time img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.song-img{
+    width: 50px;
+    height: 50px;
+}
+
+.song{
+    background-color: white;
+    width:425px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-size: 20px;
+}
+
+.time img{
+    cursor: pointer;
+}
+
+.songList{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.songName{
+    font-size: 25px;
+}
+
+/* bottom */
+
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:black;
+    gap:10px;
+    width: 88%;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.range{
+    width:50%;
+    cursor: pointer;
+}
+
+.btn img{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.bottom span{
+    color: white;
+    font-size: 25px;
+}
